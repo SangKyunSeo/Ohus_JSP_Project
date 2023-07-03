@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* 전체 페이지 스타일 */
+div.page-main{
+    overflow: hidden;
+}
+div.chatting-main{
+    height: 700px;
+    width: 100%;
+    margin:60px auto;
+	background-color:#E6E6E6;
+	position:absolute;
+}
+
+/* 채팅 헤더 */
+div.chatting-header{
+	height:60px;
+	width:500px;
+	margin:0 auto;
+	position:relative;
+}
+div.chatting-header small{
+	font-size:14px;
+}
+div.chatting-header ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+div.chatting-header li{
+	display: inline-block;
+}
+
+.chatting-title{
+	margin: 0 0 0 20px;
+	font-size: 20px;
+}
+.chatting-exit{
+	width:500px;
+	margin: 20px auto;
+	position: relative;
+}
+.btn-exit{
+	padding:7px;
+	border-radius:15px;
+	border: 0;
+	color:white;
+	background-color:#35c5f0;
+}
+.btn-exit:hover{
+	cursor:pointer;
+	background-color:#09addb;
+}
+/* 채팅 메세지 출력 부분 스타일 */
+div.content-main{
+    width:500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    overflow: auto;
+    border-bottom:1px solid #E6E6E6;
+}
+div.myItem{
+	float:right;
+	clear:both;
+}
+div.yourItem{
+	float:left;
+	clear:both;
+}
+div.myItem .sub-item{
+	background-color:#aaedf2;
+	height:25px;
+	border-radius:15px;
+}
+div.yourItem .sub-item{	
+	background-color:#ccc8c8;
+	height:25px;
+	border-radius:15px;
+}
+div.myItem small{
+	float:right;	
+}
+div.yourItem small{
+	float:left;
+}
+
+/* 채팅 메세지 입력 부분 스타일 */
+div#chatting_send{
+    bottom:0;
+    width:500px;
+   	margin:0 auto;
+	background-color:white;
+}
+.chat-message{
+    border: none;
+    border-top:1px solid #E6E6E6;
+    font-size:20px;
+    height:37px;
+    float:left;
+    width:80%;
+}
+.chat-sender input{
+    height: 40px;
+    width: 15%;
+    border:none;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-left:12px;
+}
+.chat-sender input:hover{
+    background-color: blue;
+    color:white;
+}
+.stop{
+    width:500px;
+   	margin:0 auto;
+}
+.stop input{
+	border:none;
+    border-radius: 10px;
+    background-color: #f7c0bc;
+}
+.stop input:hover{
+	background-color: red;
+	color:white;
+}
+.play{
+	width:500px;
+	margin:0 auto;
+}
+.play input{
+	border:none;
+	border-radius: 10px;
+	background-color:#4fd666;
+}
+.play input:hover{
+	background-color: blue;
+	color:white;
+}
+
+

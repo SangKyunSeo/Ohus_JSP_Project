@@ -1,0 +1,110 @@
+.content-main {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #35c5f0;
+  box-shadow: 0 0 5px #35c5f0;
+}
+input[name="order_name"],
+input[name="mem_phone"],
+input[name="order_address1"],
+input[name="order_address2"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+input[name="order_zipcode"] {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"],
+input[type="submit"],
+input[type="button"] {
+  background-color: #35c5f0;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #31b4dc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#delivery_text {
+  color: #666;
+}

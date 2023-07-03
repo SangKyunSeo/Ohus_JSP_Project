@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*==글 작성 폼==*/
+form {
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px 10px 10px 30px;
+	align-items: center;
+	justify-content: center;
+	
+}
+form ul li {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+label {
+	width: 130px;
+	float: left; /*태그를 왼쪽에 정렬*/
+}
+
+input {
+	margin-top: 4px;
+}
+
+/*=================*/
+.container ul {
+	list-style: none;
+	padding: 0;
+}
+
+.container li {
+	margin-bottom: 15px;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+input[type="text"]:focus, textarea:focus {
+	outline: none !important; 
+	border-color: #35c5f0; 
+	box-shadow: 0 0 10px #35c5f0;
+}
+
+textarea{
+    width:70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    vertical-align: middle;
+   	resize: none;
+}
+
+select{
+	width:150px;
+	background-size:20px;
+	padding:5px 30px 5px 10px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	outline:0 none;
+}
+
+#write_form select{
+	width:420px;
+}
+
+select option{
+	background:skyblue;
+	color:white;
+	padding:3px 0;
+}
+
+.align-center input[type="submit"], .align-center input[type="button"]{
+	width: 30%;
+	padding: 13px;
+	background-color: #35c5f0 ;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size : 15px;
+	cursor: pointer;
+	margin-right: 200px;
+	margin-top: 10px;
+}
+.align-center input[type="submit"]:hover, .align-center input[type="button"]:hover{
+	background-color: #09addb;
+	color : white;
+}
+
+.align-center {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
